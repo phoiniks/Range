@@ -4,6 +4,6 @@ Die Subroutine range aus dem Paket Range erzeugt einen Iterator für numerische 
 Anwendungsbeispiel:
 
 my $next = range( BEGINN, ENDE, SCHRITTWEITE );<br>
-&nbsp;while ( my $wert = $next->() ){<br>
+while ( my $wert = $next->() ){<br>
 &nbsp;printf "%.1f\n", $wert;<br>
 }
