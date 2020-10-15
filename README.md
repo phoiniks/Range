@@ -3,7 +3,7 @@ Die Subroutine range aus dem Paket Range erzeugt einen Iterator für numerische 
 
 Anwendungsbeispiel:
 
-my $next = range( BEGINN, ENDE, SCHRITTWEITE );
-while ( my $wert = $next->() ){
-  printf "%.1f\n", $wert;
+my $next = range( BEGINN, ENDE, SCHRITTWEITE );<br>
+while ( my $wert = $next->() ){<br>
+  printf "%.1f\n", $wert;<br>
 }
