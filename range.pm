@@ -3,6 +3,10 @@ package Range;
 sub range {
     my ( $beginn, $ende, $schritt ) = @_;
 
+    if ( !$beginn ){
+	$beginn = '0.0';
+    }
+    
     my $akkumulator = $beginn;
     my $anzahl = $ende / $schritt;
     my $merker = 1;
