@@ -7,3 +7,6 @@ my $next = range( BEGINN, ENDE, SCHRITTWEITE );<br>
 while ( my $wert = $next->() ){<br>
 &nbsp;printf "%.1f\n", $wert;<br>
 }
+
+Warum github das Modul als Raku einordnet, ist mir schleierhaft. Es handelt sich um ganz
+ordinäres Perl.
